@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #9db9cf; 
+		background: #5c6f7d; 
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3236,7 +3236,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color:#566e87;
 		}
 
 		.wrapper.style1 {
@@ -3244,7 +3244,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #6d8dad;
 		}
 
 		.wrapper.style2 {
@@ -3252,15 +3252,15 @@ input, select, textarea {
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #354739;
 		}
 
 		.wrapper.style3 {
-			background-color: #9fe0ce;
+			background-color: #666666;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #597a71;
+			background-color: #8c8c8c;
 		}
 
 		.wrapper.fullscreen {
@@ -3762,11 +3762,11 @@ sidebar nav > ul > li:first-child {
 			}
 
 			#sidebar nav a:before {
-				background: #65e04c;
+				background: #b8d6b2;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #ed4a05, #e5ed05);
+				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
