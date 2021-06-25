@@ -3256,11 +3256,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #9fe0ce;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #597a71;
 		}
 
 		.wrapper.fullscreen {
@@ -3370,7 +3370,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #769eb5;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #959696;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3587,7 +3587,8 @@ input, select, textarea {
 				position: relative;
 			}
 
-				#sidebar nav > ul > li:first-child {
+				
+sidebar nav > ul > li:first-child {
 					margin: 0;
 				}
 
@@ -3761,11 +3762,11 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #65e04c;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #ed4a05, #e5ed05);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
