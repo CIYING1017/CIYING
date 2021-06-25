@@ -37,19 +37,20 @@
 							<h1 class="major">Some tricks I found when designing pages</h1>
 							     <p>Changing existing codes without understanding the basic logics of html language is a pain in the ass. From time to time I don't know how to add all the cool functions I like to the existing documents. Maybe I should have learnt html coding from the beginning... </p>
 							     <p>But I did learn a lot of tricks when coding. Here I'll list a few. </p>
-							     <p>1. I am sometimes too lazy to save screenshots and directly copy them to word documents. However, when I want to use the images again, the image quality I get by right clicking images and selecting 'export as picture' is always very poor. I tried to prevent word from compressing images by clicking file -> options -> advanced -> image size and quality -> all new documents -> do not compress images in file. But somehow it still didn't work.</p>
+							     
+							<h2> 1. Extracting images from word </h2>
+							     <p>I am sometimes too lazy to save screenshots and directly copy them to word documents. However, when I want to use the images again, the image quality I get by right clicking images and selecting 'export as picture' is always very poor. I tried to prevent word from compressing images by clicking file -> options -> advanced -> image size and quality -> all new documents -> do not compress images in file. But somehow it still didn't work.</p>
 							     <p>Here's what I do. I copy the word document and add '.zip' to the end of file name. Extracting the file, you will find the high-resolution images in the folder in path word -> media. Very simple, how come I never knew! </p>
-							     <p>4. In  I want to change the URL to www.ciyingwang.com but the DNS checking says </p>
-							<!--          <span class="image fit"><img src="images/blog_01/Picture1.png" alt="" /></span>
-						        -->
-							              <p><span class="image left"><img src="images/blog_01/Picture1.png" alt="" /></span>
 							    
-									      <P> .</p>
-									      <P> .</p>
-									      <P> .</p>
-									      <P>. </p>
-									      <P> .</p>
-							      	  
+							<h2> 2. Embedding pdfs in pages </h2>
+							     <p>I wanted to embed my portfolios in the webpage. There're several converters online that we can use to change pdf to html, but I am too lazy to download them. Instead I upload the pdf document to my repository and type in the following codes in the desired 'body' session of the portfolio html: </p>
+							<p><embed src="portfolios/portfolio for bartlett.pdf" type="application/pdf" width="100%" height = "1000px" </p>
+							<p>The pdf can be viewed without making the page too bulky, which is good. But the file does not work well on phones. And it always takes a long time to load. Is there a better way?</p>
+							
+							
+						
+							<!--          <span class="image fit"><img src="images/blog_01/Picture1.png" alt="" /></span>
+						        
 							     <p>5. Log on to google domain. In ‘DNS’ – ‘custom records’, type in the following </p>
 							         <span class="image left"><img src="images/blog_01/Picture2.png" alt="" /></span>
 							     <p>6. It will take a long time for the change to take place. Change URL in github-settings-pages again, and this message comes up </p>
