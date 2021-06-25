@@ -14,7 +14,7 @@
 		background-size: 100% 100%;
 
 		p {
-			font-size: 1.25em;
+			font-size: 1.00em;
 
 			@include breakpoint('<=medium') {
 				br {
@@ -23,7 +23,7 @@
 			}
 
 			@include breakpoint('<=small') {
-				font-size: 1em;
+				font-size: 0.8em;
 			}
 		}
 
