@@ -3236,11 +3236,11 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color:#000000;
+			background-color:#000000;  /*  not sure  */
 		}
 
 		.wrapper.style1 {
-			background-color:#19e63b;
+			background-color:#000000;  /*  welcome background colour  */
 		}
 
 		.wrapper.style1-alt {
@@ -3256,7 +3256,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #c40404;
+			background-color: #525252; /*  portfolo & works background colour   */
 		}
 
 		.wrapper.style3-alt {
