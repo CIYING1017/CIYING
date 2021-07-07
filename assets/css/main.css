@@ -163,7 +163,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: bold;
+		font-weight: absolute;
 	}
 
 	em, i {
@@ -175,9 +175,9 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
-		font-weight: bold;
-		line-height: 1.5;
+		color: #6e6e6e;
+		font-weight: absolute;
+		line-height: 1;
 		margin: 0 0 0.5em 0;
 	}
 
@@ -197,7 +197,7 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5c5c5c, #ededed);
+				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
