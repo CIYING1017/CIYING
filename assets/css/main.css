@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #f51414;
+		color: #f58f7c;
 		font-weight: absolute;
 		line-height: 1;
 		margin: 0 0 0.5em 0;
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #f58f7c, #f2c4ce);
+				background-image: -webkit-linear-gradient(to right, #f58f7c, #f2c4ce);
+				background-image: -ms-linear-gradient(to right, #f58f7c, #f2c4ce);
+				background-image: linear-gradient(to right, #f58f7c, #f2c4ce);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3612,14 +3612,14 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #000000;
+		background-color: #0000008c;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
 
 		#header > .title {
 			border: 0;
-			color: #ffffff;
+			color: #0ce290;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -3766,7 +3766,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #000000;
+		background: #00000080;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -4004,14 +4004,14 @@ sidebar nav > ul > li:first-child {
 			}
 
 			#sidebar nav a:before {
-				background: #000000;
+				background: #0306e47e;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #6b6b6b, #ffffff);
-				background-image: -webkit-linear-gradient(to right, #6b6b6b, #ffffff);
-				background-image: -ms-linear-gradient(to right,#6b6b6b, #ffffff);
-				background-image: linear-gradient(to right, #6b6b6b, #ffffff);
+				background-image: -moz-linear-gradient(to right, #f58f7c, #f2c4ce);
+				background-image: -webkit-linear-gradient(to right, #f58f7c, #f2c4ce);
+				background-image: -ms-linear-gradient(to right,#f58f7c, #f2c4ce);
+				background-image: linear-gradient(to right, #f58f7c, #f2c4ce);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
