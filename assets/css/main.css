@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f6f5fa; 
+		background: #ffffff9a; 
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3478,31 +3478,39 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color:#000000;  /*  not sure  */
+			background-color:#5c10d600;  /*  not sure  */
 		}
 
 		.wrapper.style1 {
-			background-color:#000000;  /*  welcome background colour  */
+			background-color:#ffffff;  /*  welcome background colour  */
 		}
 
 		.wrapper.style1-alt {
-			background-color: #19e63b;
+			background-color: #99aead;  /* the most bottom colour */
 		}
 
 		.wrapper.style2 {
-			background-color: #9e9e9e; /* blog background colour */
+			background-color: #99aead; /* blog background colour */
 		}
 
 		.wrapper.style2-alt {
-			background-color: #2605e3;
+			background-color: #e613db;
 		}
 
 		.wrapper.style3 {
-			background-color: #525252; /*  portfolo & works background colour   */
+			background-color: #99aead; /*  portfolo  background colour   */
 		}
 
 		.wrapper.style3-alt {
-			background-color: #f7ef07;
+			background-color: #0a0afd;
+		}
+
+		.wrapper.style4 {
+			background-color: #6d9197; /*   works background colour   */
+		}
+
+		.wrapper.style4-alt {
+			background-color: #0a0afd;
 		}
 
 		.wrapper.fullscreen {
@@ -3619,7 +3627,7 @@ input, select, textarea {
 
 		#header > .title {
 			border: 0;
-			color: #0ce290;
+			color: #fdfdfd7a;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -4004,7 +4012,7 @@ sidebar nav > ul > li:first-child {
 			}
 
 			#sidebar nav a:before {
-				background: #0306e47e;
+				background: #19191a00;
 			}
 
 			#sidebar nav a:after {
