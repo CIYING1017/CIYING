@@ -573,7 +573,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 			.row {
 				display: flex;
-				flex-wrap: wrap;
+				flex-wrap: flex;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
