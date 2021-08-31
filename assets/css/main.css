@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #3603ee; 
+		background: #f6f5fa; 
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(0, 0, 0, 0);
+		color: rgb(0, 0, 0);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -162,7 +162,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #b4da0e;
 		font-weight: absolute;
 	}
 
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #f51414;
 		font-weight: absolute;
 		line-height: 1;
 		margin: 0 0 0.5em 0;
