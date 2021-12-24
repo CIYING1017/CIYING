@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Blog_02</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Blog</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+<!--	                                        <li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+-->
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Some tricks I found when designing pages</h1>
+							     <p>Changing existing codes without understanding the basic logics of html language is a pain in the ass. From time to time I don't know how to add all the cool functions I like to the existing documents. Maybe I should have learnt html coding from the beginning... </p>
+							     <p>But I did learn a lot of tricks when coding. Here I'll list a few. </p>
+							     
+							<h2> 1. Extracting images from word </h2>
+							     <p>I am sometimes too lazy to save screenshots and directly copy them to word documents. However, when I want to use the images again, the image quality I get by right clicking images and selecting 'export as picture' is always very poor. I tried to prevent word from compressing images by clicking file -> options -> advanced -> image size and quality -> all new documents -> do not compress images in file. But somehow it still didn't work.</p>
+							     <p>Here's what I do. I copy the word document and add '.zip' to the end of file name. Extracting the file, you will find the high-resolution images in the folder in path word -> media. Very simple, how come I never knew! </p>
+							    
+							<h2> 2. Embedding pdfs in pages </h2>
+							     <p>I wanted to embed my portfolios in the webpage. There're several converters online that we can use to change pdf to html, but I am too lazy to download them. Instead I upload the pdf document to my repository and type in the following codes in the desired 'body' session of the portfolio html: </p>
+							<p><span class="image left"><img src="images/blog_02/Picture1.png" alt="" /></span>
+									      <P> .</p>
+									      <P> .</p>   
+							
+							<p>The pdf can be viewed without making the page too bulky, which is good. But the file does not work well on phones. And it always takes a long time to load. Is there a better way?</p>
+							
+							<h2> 3. Embedding models in pages </h2>
+							     <p>There are some models that I want to embed in the pages which allow visitors to interact with. I tried exporting models from Rhino to Blender and to glTF format (which can be embedded in html), but it's not very ideal. So I then tried sketchfab.  </p>
+							
+							
+							
+							<!--          <span class="image fit"><img src="images/blog_01/Picture1.png" alt="" /></span>
+						        
+							     <p>5. Log on to google domain. In ‘DNS’ – ‘custom records’, type in the following </p>
+							         <span class="image left"><img src="images/blog_01/Picture2.png" alt="" /></span>
+							     <p>6. It will take a long time for the change to take place. Change URL in github-settings-pages again, and this message comes up </p>
+							          <span class="image left"><img src="images/blog_01/Picture3.png" alt="" /></span>
+							     <p>7. According to the message I have to add another record on my google DNS. I don’t know what the difference is between ALIAS and CNAME, so I’ll just add A record. The IP addresses can be found on Github ‘manage custom domain’ documentation. </p>
+							           <span class="image left"><img src="images/blog_01/Picture4.png" alt="" /></span>
+							     <p>8. When changing the URL in Github it still doesn’t work. It took about 30 min to propagate. Finally the URL is successfully changed to the desired domain.  </p>
+							          <span class="image left"><img src="images/blog_01/Picture5.png" alt="" /></span>
+							     <p>9. Then time to design the webpage. The style I wanted to achieve was like https://xiaohegithub.cn/ , which looks geeky and simplistic. What I don’t want to achieve is like https://html5up.net/massively, which looks cool but actually is a mess. </p>
+							     <p>10. Before figuring out the detailed process of coding and setting up all the functions I wanted to have, I thought it would be more realistic if I made use of some existing templates first and then modified it.  </p>
+							     <p>11. The webpage https://html5up.net/ provides some good template. I downloaded and unzipped one and loaded it onto my repository. </p>
+							     <p>12. Go to index.html and change the codes inside. It’s pretty straightforward. </p>
+							     <p>13.	When modifying the codes, I started to wonder how Github knows what language I am using. Apparently when editing the website I am using HTML language, but what if I add other files that are written in C++ or JavaScript? How will my repository recognise them and prevent them from collapsing?</p>
+							<!--     <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+                                                        -->
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; CIYING. All rights reserved.</li><li></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
