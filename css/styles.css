@@ -1,0 +1,51 @@
+
+h1{
+text-align: left;
+color:rgb(78, 78, 78);
+font-size:25px;
+font-family: 'Orbitron', sans-serif;
+}
+
+p{
+    text-align: center;
+    color:rgb(161, 161, 161);
+    font-size:15px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.sidebar {
+    padding: 3em 0.5em 10em 10em ;
+    background:rgb(230, 230, 230);
+    cursor: default;
+    height: 100vh;
+    left: 0;
+    overflow-x: scroll;
+    overflow-y: auto;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 18em;
+    z-index: 10000;}
+
+    
+.sidebar a{
+    text-decoration:none;
+    color: rgb(161, 161, 161);
+}
+
+.sidebar a:hover {
+    color:rgb(212, 212, 212)
+}
+
+.sidebar a:active{
+    color:rgb(212, 212, 212)
+}
+
+.wrapper {
+    background-color: rgb(230, 230, 230);
+}
+
+.footer {
+    text-align: center
+}
+
