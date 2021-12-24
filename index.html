@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html>
-<!-- main structure of the html file: head (nav) &  body (header, main, footer) -->
      <head>
          <meta charset="utf-8">
          <meta name="description" content="this is an amazing website">
-         <title> Ciying Wang </title>
+         <title> CY HOME </title>
     </head>
 
-<!--
-    "meta" is just a tag
-    the things inside <> are "tags", which are the basic components of html files
-    "break" is a great component to create space between paragraphs! <br/>
-    <hr/> a single tag  creates lines
-    <big> generates bigger text
-    -->
+    <STYLE>
+    A {text-decoration: none;} 
+    p {font-size:15px; color:rgb(87, 87, 87); font-family: Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+    h1 {font-size:25px; color:rgb(87, 87, 87); font-family: Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+    h2 {font-size:40px; color:rgb(255, 255, 255); font-family: Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+    .small-image {width: 100px;}
+   
+    #sidebar {
+    padding: 3em 10em 10em 5em ;
+    background:rgb(230, 230, 230);
+    cursor: default;
+    height: 100vh;
+    left: 0;
+    overflow-x: scroll;
+    overflow-y: auto;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 18em;
+    z-index: 10000;}
+   
+    .title-align{margin-left: 21em;}
+    .picture-align{margin-left: 30em;}
+    .footer-align {text-align: center}
+    .logo  {background-color: rgb(0, 0, 0); border-style:none; border-radius: 50%; margin-left: 6em; height:70px;width: 70px;text-align:center; }
+    
+    </STYLE>
 
-     <body style="background-color:rgb(226, 225, 222)">
-        <!--
-            cool and convenient way to change the background of page!
-             Basic sections of a body: header,main,footer
-             in the header, a nav tag helps create sections
-        -->
+     <body style="background-color:rgb(230, 230, 230)">
+
         <header>
-            <nav>
-            </nav>
-
+            <br/><br/><br/>
+            <h1 class="title-align"> Ciying Wang</h1> 
+             <hr size="1"/><br/>
         </header>
+
         <main>
-            <article>
-                <section>
-                </section>
-                <section>
-                </section>
-            </article>
-            <aside>
-                hellooo
-            </aside>
+
+             <section id="sidebar">
+                <nav>
+                    <h2 class="logo">CY.</h2>
+                    <ul>
+                        <p><a href="index.html">Home</a></p>
+                        <p><a href="blogs.html">Blogs</a></p>
+                        <p><a href="works.html">Works</a></p>
+                        <p><a href="portfolio.html">Portfolios</a></p>
+                        <p><a href="bio.html">Bio</a></p>
+                        <p><a href="contact.html">Contact</a></p>
+                    </ul>
+                    
+            </section>
+          
+            <section >
+               
+             <img  class="picture-align"  height="500"  src="images/gif.gif"  alt="My profile"/>
+            </br></br></br></br></br></br>
+                 </nav>
+             </section>>
+       
+             
+             
         </main>
 
         <footer>
+            <p class="footer-align"><small>@2021 by Ciying</small></p>
         </footer>
-
-         <h1> Ciying's website</h1>
-         <br/> <br/>  <br/> 
-         <h2>hahaha</h2>
-         <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-             hhhhhhhhh<b>hhhhhh</b>hhhhhhhhhhhhh<i>hhh</i>hhhhhhh
-             <big>hhhh</big>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-             hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-         <hr/>
-        
-         <!--sub and super characters-->
-         <p>H<sub>2</sub>O</p>
-         <p>H<sup>2</sup>O</p>
-         <!--styles and colours of texts and webpage can be set up using css-->
-         <p style="color:blue;background-color:red"> hahahaha</p>
-         <!--link to other websites using "a" tag-->
-         <a href="http://www.google.com">Google's homepage</a>
-         <!--link that opens another tab-->
-         <a href="http://www.google.com"target="_blank">Google's homepage</a>
-         <!--link that opens other webpages of mine-->
-         <a href="blog_01.html">Blog 01</a>
 
 
     </body>
