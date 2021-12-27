@@ -1,30 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    margin:0;
+    font-family:'Orbitron',Helvetica, sans-serif;
+}
+
+/*image as background:
+body{
+    min-height:100vh;
+    background:url... no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+*/
 
 h1{
 text-align: left;
 color:rgb(78, 78, 78);
 font-size:25px;
+padding-top:0;
 font-family: 'Orbitron', sans-serif;
 }
 
 p{
-    text-align: center;
+    color:rgb(161, 161, 161);
+    font-size:15px;
+    font-family: 'Orbitron',Helvetica, sans-serif;
+    margin:0em;
+}
+
+p a{
+    color:rgb(161, 161, 161);
+    font-size:15px;
+    text-decoration: none;
+}
+
+p a:hover{
+    color:rgb(161, 161, 161);
+    font-size:15px;
+    text-decoration: underline;
+}
+
+t{
+    color:rgb(161, 161, 161);
+    font-size:15px;
+    font-family: 'Orbitron',Helvetica, sans-serif;
+    margin:0em;
+    position:relative;
+    width:max-content;
+}
+
+t::before,
+t::after{
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+
+}
+
+t::before{
+    background:rgb(0,0,100); /* outline:1px solid white */; border-left: 1px solid white ;
+    animation:typewriter 4s steps(24) forwards ;
+}
+
+@keyframes typewriter{
+    to {
+        left:100%;}
+}
+
+t2{
+    color:rgb(161, 161, 161);
+    font-size:15px;
+    font-family: 'Orbitron',Helvetica, sans-serif;
+    margin:0em;
+    position:relative;
+    width:max-content;
+}
+
+.t2 a{
+    text-decoration:underline;
+    color: rgb(161, 161, 161);
+}
+
+.t2 a:hover {
+    color:rgb(252, 252, 252)
+}
+
+.t2 a:active{
+    color:rgb(212, 212, 212)
+}
+
+
+t2::before,
+t2::after{
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+
+}
+
+t2::before{
+    background:rgb(163, 163, 163); outline:1px solid rgb(163, 163, 163);
+    animation:typewriter2 2s steps(24) forwards ;
+}
+
+@keyframes typewriter2{
+    to {
+        left:100%;}
+}
+
+
+h2{text-align: right;
     color:rgb(161, 161, 161);
     font-size:15px;
     font-family: 'Orbitron', sans-serif;
 }
 
+h3{text-align: left;
+    color:rgb(80, 80, 80);
+    font-size:15px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h3 a{text-decoration: none;
+    color:rgb(80, 80, 80);
+}
+
+h3 a:hover{
+    color:rgb(161, 161, 161);
+    font-size:15px;
+    text-decoration: underline;
+}
+
+.h3 a:active{
+    color:rgb(212, 212, 212)
+}
+
+
 .sidebar {
-    padding: 3em 0.5em 10em 10em ;
-    background:rgb(230, 230, 230);
+    position:absolute;
+    padding: 3em 0.5em 8em 0em ;
     cursor: default;
     height: 100vh;
     left: 0;
-    overflow-x: scroll;
-    overflow-y: auto;
-    position: fixed;
+    overflow-x: visible;
+    overflow-y:visible;
     text-align: right;
     top: 0;
-    width: 18em;
+    width: 20%;
     z-index: 10000;}
 
     
@@ -41,11 +173,108 @@ p{
     color:rgb(212, 212, 212)
 }
 
-.wrapper {
-    background-color: rgb(230, 230, 230);
-}
+.topbar {
+    padding: 3em 0.5em 10em 5em ;
+    cursor: default;
+    height: 1em;
+    left: 0;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 1000vh;
+    z-index: 10000;}
 
 .footer {
     text-align: center
 }
+
+.wrapper{
+    width:600px;
+
+    position:auto;
+
+}
+
+.profile{
+    text-align:center
+}
+
+.profile img{
+    transition:1s;
+    padding:15px;
+}
+
+.profile img:hover{
+    filter:greyscale(100%);
+    transform:scale(1.1);
+    transform:translateX(30em)
+}
+
+
+/* popup window of gallery */
+
+.gallery-popup{
+    margin:10px 5px;
+}
+
+.gallery-popup img{
+    transition:0.5s;
+
+}
+
+.gallery-popup img:hover{
+    filter:greyscale(100%);
+    transform:scale(1.1);
+}
+
+/* contact form*/
+
+
+.form textarea {
+    background:rgba(32, 32, 32, 0.438);
+    color:rgba(203, 202, 204, 0.719);
+    border: none;
+    width:30%;
+    margin-left:25%;
+    height:100px;
+    padding:12px;
+    font-size:15px;
+    border-radius:5px;
+    box-shadow:0 1px 1px rgba(134, 134, 134, 0.568);
+    opacity:0.9;
+}
+
+.send-btn{
+
+    background:rgba(93, 94, 93, 0.568);
+    color:rgb(240, 240, 240);
+    width:60px;
+    height:30px;
+    font-size:15px;
+    font-weight:400;
+    border:none;
+    cursor:pointer;
+    transition-property:background;
+}
+
+.send-btn:hover{
+    background: rgb(0,0,100)
+}
+
+@media screen and (max-width:950px){
+    .contact{
+        flex-direction:column;
+    }
+
+}
+
+
+
+
+
+
+
+
 
