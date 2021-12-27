@@ -1,81 +1,103 @@
 <!DOCTYPE html>
 <html>
-     <head>
-         <meta charset="utf-8">
-         <meta name="description" content="this is an amazing website">
-         <title> BIO </title>
-    </head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="this is an amazing website">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <style>@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');</style>
+        <title> CY HOME </title>
+   </head>
 
     <STYLE>
-    A {text-decoration: none;} 
-    p {font-size:15px; color:rgb(87, 87, 87); font-family: Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-    h1 {font-size:20px; color:rgb(87, 87, 87); font-family: Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-    h2 {font-size:40px; color:rgb(255, 255, 255); font-family: Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-    .small-image {width: 100px;}
-   
-    #topbar {
-    padding: 1em 10em 10em 5em ;
-    background:rgb(230, 230, 230);
-    cursor: default;
-    height: 50vh;
-    left: 0;
-    overflow-x:hidden;
-    overflow-y: hidden;
-    position: fixed;
-    text-align: left;
-    top: 0;
-    width: 10vh;
-    z-index: 10000;}
-   
-    .title-align{margin-left: 30em;}
-    .picture-align{margin-left: 20em;}
-    .footer-align {text-align: center}
-    .logo  {background-color: rgb(0, 0, 0); border-style:none; border-radius: 50%; margin-left: 0.3em; height:50px;width: 70px;text-align:center; }
-    .text-align{margin-left:20em}
+.footer-align{text-align:center}
+.text-align {margin-left: 25%;width: 50%;}
+.gallery { height:70px}
+.gallery-align{margin-left:25%;width:50%}
+.logo  {margin-left:2%;margin-top:2% }
 
     </STYLE>
 
      <body style="background-color:rgb(230, 230, 230)">
 
-        <header>
-            <br/><br/><br/>
-            <h1 class="title-align"> Ciying Wang</h1> 
-        <hr/ size="1" >
-             <br/>
+        <header >
+            <br/>
+            <a href = "index.html" class="logo">
+                <img  height="50"  src="images/logo.png"  alt="My profile"/>
+            </a>
+            <h1 style="text-align: center;"> Ciying Wang </h1>
         </header>
 
         <main>
-
-             <section id="topbar">
-                <nav>
-                    <ul>
-                        <h2 class="logo"><a href="index.html">CY</a></h2>
-                    </ul>
+            <section class="profile">
+                <br/><br/>
+                <a href = "images/bio/Ciying_s CV.pdf">
+                  <img  height="200"  src="images/bio/profile.jpeg"  alt="My profile">
+               </a>                 
                     
-            </section>
+               <h3 style="text-align: center;">(click photo to see CV)</h3>
 
-            <section >
-                <a href = "images/Ciying_s CV.pdf">
-                    <img class="picture-align"  height="300"  src="images/profile.jpeg"  alt="My profile">
-                 </a>
-                 <a href = "Ciying_s CV.pdf">
-                    <img   height="300"  src="images/welcome.jpg"  alt="My profile">
-                 </a>
-
-             <p class="title-align">(click photo to download CV)</p>
-            </br></br>
+             
+            </br>
                  </nav>
              </section>
 
-             <section class="text-align">
-             <h1>Education</h1>
+             <section class="text-align" >
+             <h3 >Education</h3>
             <p>2019.9-2023.6 Engineering and Architectural Design (MEng), UCL, London</p>
             <p>2018.9-2019.6 Preparatory Courses (Science & Architecture), UCL, London</p>
-            <p>2015.9-2018.6 No.2 High School attached to East China Normal University, Shanghai</p>
+            <p>2015.9-2018.6 <a href="https://en.wikipedia.org/wiki/No._2_High_School_Attached_to_East_China_Normal_University" target="_blank">No.2 High School attached to East China Normal University, Shanghai</a></p>
             <p>2011.9-2015.6 Jianping Experimental Middle School, Shanghai</p>
             <p>2006.9-2011.6 Jianping Experimental Primary School, Shanghai</p><br/>
-            <h1>Experiences</h1>
+            <h3>Experiences</h3>
+            <p>Intern in HANLIAN DESIGN, Shanghai, June-August (2020), communicating with architects and project managers, 
+                assisting the CAD drawing of 4 projects (kindergartens & schools),
+                 working in the design team for a shopping centre.</p><br/>
+            <p>University  Ambassador of <a href="http://sunshine-action.org/" target="_blank"><i>Sunshine Action</i> </a>, 
+                responsible for a building project and fund-raising events.</p><br/>
+            <p>Director of the TV station of senior high school, in charge of planning programs and seeking patronage from institutes and establishments. </p><br/>
+            <p>League branch secretary in high school, responsible for organizing multiple school activities.</p><br/>
+            <p>Mentor of UPC, 2019 (UCL preparatory coureses), bridging between students and tutors and solving a group of studens demands. </p><br/>
              </section>
+
+             <section class="text-align" ><h3>Photo Gallery</h3></section>
+             
+             <div class=gallery-popup>
+             <section class="gallery-align">
+             <a href="images/photo gallery/middleschool3.JPG" data-lightbox="mygallery" data-title="middle school" ><img  class="gallery"  src="images/photo gallery/middleschool3.JPG"  alt="Highschool"/></a>
+             <a href="images/photo gallery/highschool2.jpg" data-lightbox="mygallery" data-title="middle school" ></a><img  class="gallery"  src="images/photo gallery/highschool2.jpg"  alt="Highschool"/></a>
+             <a href="images/photo gallery/highschool4.jpg" data-lightbox="mygallery" data-title="middle school" ></a><img  class="gallery"  src="images/photo gallery/highschool4.jpg"  alt="Highschool"/></a>
+             <a href="images/photo gallery/highschool5.jpg" data-lightbox="mygallery" data-title="middle school" ></a><img  class="gallery"  src="images/photo gallery/highschool5.jpg"  alt="Highschool"/></a>
+             <a href="images/photo gallery/highschool6.jpg" data-lightbox="mygallery" data-title="middle school" ></a><img  class="gallery"  src="images/photo gallery/highschool6.jpg"  alt="Highschool"/></a>
+             <a href="images/photo gallery/highschool7.jpg" data-lightbox="mygallery" data-title="middle school" ></a><img  class="gallery"  src="images/photo gallery/highschool7.jpg"  alt="Highschool"/>
+             <a href="images/photo gallery/highschool8.jpg" data-lightbox="mygallery" data-title="middle school" ></a><img  class="gallery"  src="images/photo gallery/highschool8.jpg"  alt="Highschool"/>
+             <a href="images/photo gallery/middleschool1.jpg" data-lightbox="mygallery" data-title="middle school" ></a><img  class="gallery"  src="images/photo gallery/middleschool1.jpg"  alt="Highschool"/>
+             <a href="images/photo gallery/middleschool2.JPG" data-lightbox="mygallery" data-title="middle school" ></a><img  class="gallery"  src="images/photo gallery/middleschool2.jpg"  alt="Highschool"/>
+             <a href="images/photo gallery/highschool11.jpg" data-lightbox="mygallery" data-title="middle school" ></a><img  class="gallery"  src="images/photo gallery/highschool1.jpg"  alt="Highschool"/>
+             <a href="videos/20180514204534.mp4" data-lightbox="mygallery" data-title="middle school" ></a><video  class="gallery" controls><source src='videos/20180514204534.mp4' type='video/mp4' ></video>
+            </section>
+             </div>
+
+
+             </main>
+
+
+<!--
+
+
+             <div class="popup" id="popup-1">
+               <div class="popup-overlay"></div>
+               <div class="popup-content">
+                 <div class="popup-close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Title</h1>
+                  <p>hahahahahahahahahahahahahahahahahahaha</p>
+               </div>
+             </div>
+
+             <button onclick="togglePopup()">Highschool</button> 
+ -->           
        
              
              
@@ -84,7 +106,7 @@
         <footer>
             <p class="footer-align"><small>@2021 by Ciying</small></p>
         </footer>
-
+        <script src="js/photo gallery.js"></script>
 
     </body>
 
