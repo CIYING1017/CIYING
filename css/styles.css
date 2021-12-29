@@ -287,6 +287,9 @@ h3 a:hover{
 
 }
 
+.logo :hover{
+    transform: scale(1.1);
+}
 
 
 
