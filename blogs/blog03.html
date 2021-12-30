@@ -14,7 +14,7 @@
     .title-align{margin-left: 30em;}
     .image{width:450px;}
     .footer-align {text-align: center}
-    .logo  {background-color: rgb(0, 0, 0); border-style:none; border-radius: 50%; margin-left: 0.3em; height:50px;width: 70px;text-align:center; }
+    .logo  {margin-left:2%;margin-top:2% }
     .text-align{margin-left:20em; width:70em}
     .content{width:50%; margin-left:25%}
 
@@ -24,31 +24,24 @@
 
         <header >
             <br/>
-            <a href = "../blogs.html">
+            <a href = "../blogs.html" class="logo">
                 <img  height="50"  src="../images/logo.png"  alt="My profile"/>
             </a>
-            <h1 style="text-align: center;"> Comparison of 3 methods of importing map data to models </h1><br/><br/>
+            <h1 style="text-align: center;"> How I make the animation on the index page </h1><br/><br/>
         </header>
 
         <main>
 
              <section class="content">
-                <p>I am trying to set up a standard process for myself to import environmental and geographical data for architectural projects. </p>		     
-                <h3> 1. Blender + MapsModelsImporter + RenderDoc + Chrome </h3>
-                <p>Step 1. Download MapsModelsImporter(v0.4.1) zip file from the following link: https://github.com/eliemichel/MapsModelsImporter/releases/tag/v0.4.1-rc1</p>
-                <p>Step 2. Open Blender ->Edit -> Addons, select downloaded zip file and check the addon box. </p>
-                <p>Step 2. Open Blender ->Edit -> Addons, select downloaded zip file and check the addon box. </p>
-                <p>Step 3. Download RenderDoc 1.13. Originally I downloaded RenderDoc 1.15, but it didn’t work when I later tried to ‘insert into process’. So keep to 1.13 or older versions. </p>
-                <p>Step 4. Go to C disk -> Program Files -> Google -> Chrome -> Application. Right click on Chrome (application file ) and choose ‘create shortcut’ to desktop. Go to desktop, right click the shortcut and choose ‘Properties’. In the Shortcut -> Target window, paste the following: C:\Windows\System32\cmd.exe /c "SET RENDERDOC_HOOK_EGL=0 && START "" ^"C:\Program Files    \Google\Chrome\Application\chrome.exe^" --disable-gpu-sandbox --gpu-startup-dialog" </p>
-                <p>Step 5. Now the shortcut has become a command icon. Double click, a window should pop up saying ‘Gpu starting with pid: xxxxx’. Note down the 5-digit number. </p>
-                <p>Step 6. Open RenderDoc. Click File -> Inject Into Process. Here if you use the wrong version of RenderDoc, this selection will not come up. Find the name with the PID number that you have noted down. Click ‘Inject’.  </p>
-                <p>Step 2. Open Blender ->Edit -> Addons, select downloaded zip file and check the addon box. </p>
-                <p>Step 2. Open Blender ->Edit -> Addons, select downloaded zip file and check the addon box. </p>              
-                <h3> 2. Embedding pdfs in pages </h3>
-                <p>I wanted to embed my portfolios in the webpage. There're several converters online that we can use to change pdf to html, but I am too lazy to download them. Instead I upload the pdf document to my repository and type in the following codes in the desired 'body' session of the portfolio html: </p>     
-                <p>The pdf can be viewed without making the page too bulky, which is good. But the file does not work well on phones. And it always takes a long time to load. Is there a better way?</p>          
-                <h3> 3. Embedding models in pages </h3>
-                <p>There are some models that I want to embed in the pages which allow visitors to interact with. I tried exporting models from Rhino to Blender and to glTF format (which can be embedded in html), but it's not very ideal. So I then tried sketchfab.  </p>
+                <p>A very simple way to embed animation! </p>		     
+                <h3>  </h3>
+                <p>If the animation doesn't need to be interactive, I think a gif form will be the simplest. </p><br/>
+                <p>I modelled in Rhino and animated a turtable view.  </p><br/>
+                <p>I set the number of frames to the 50. So there were 50 images exported.</p><br/>
+                <p>In Photoshop, 'open' and select 'image sequence'. A sequence of frames can be generated. </p><br/>
+                <p>The background of frames is automatically white. I want a transparent background, so I deleted the background frame by frame (haven't found a better way) </p><br/>
+                <p>Embed the gif like a normal image in html. </p><br/><br/><br/><br/><br/><br/>
+ 
 
              </section>
        
