@@ -82,8 +82,8 @@ t::after{
 }
 
 t::before{
-    background:rgb(0,0,100); /* outline:1px solid white */; border-left: 1px solid white ;
-    animation:typewriter 4s steps(24) forwards ;
+    background:rgb(0, 0, 0); /* outline:1px solid white */; border-left: 1px solid white ;
+    animation:typewriter 2s steps(24) forwards ;
 }
 
 @keyframes typewriter{
